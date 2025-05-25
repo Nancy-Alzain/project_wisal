@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             }
             $stmt->close();
         }
-س
+
         $check->close();
         $conn->close();
     }
